@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Recomendado para evitar problemas com largura/altura */
+}
+
+.margem{
+    margin-bottom: 1px;
+}
+body{
+    background-color: #000642;
+    display: flex;
+    color: white;
+    font-family: "Montserrat", 'Times New Roman', serif;
+}
+
+header{
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.493); 
+}
+
+header span{
+    padding: 0 0 0 30px;
+}
+
+nav{
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #bfc5ff;
+}
+
+main{
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+
+.section-1{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.151);
+}
+
+.inicio-div-1{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    padding-left: 50px;
+    justify-content: center;
+}
+
+.texto{
+    padding-top: 3px;
+}
+
+img{
+    padding-top: 50px;
+    max-width: 250px;
+    margin: auto;
+}
